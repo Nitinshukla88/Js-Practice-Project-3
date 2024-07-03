@@ -9,12 +9,25 @@ html,body{
     height: 100%;
 }
 
-#box{
-    height: 350px;
-    width: 500px;
+.box{
+    height: 500px;
+    width: 900px;
     position: absolute;
     background-color: red;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.photo-holder{
+    height: 250px;
+    width: 200px;
+    background: url('Pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    position: absolute;
+    visibility: hidden;
 }
