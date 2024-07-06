@@ -15,7 +15,7 @@ document.querySelector('.box').addEventListener("mousemove",
         let parent = document.querySelector('.box')
         newdiv.classList.add('photo-holder')
         newdiv.style.left = data.clientX-200+'px'
-        newdiv.style.top = data.clientY+'px'
+        newdiv.style.top = data.clientY-100+'px'
         let newimg = document.createElement('img')
         newimg.setAttribute("src","Pic.png")
         newdiv.appendChild(newimg)
